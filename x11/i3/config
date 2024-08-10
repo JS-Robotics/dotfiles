@@ -37,11 +37,11 @@ exec --no-startup-id nm-applet
 #Start picom on boot
 exec --no-startup-id picom -b
 
-#Screen setup
-exec --no-startup-id xrandr --output DP-4 --primary --mode 3440x1440
+#Set main Screen
+#exec --no-startup-id xrandr --output DP-4 --primary --mode 3440x1440
 
 # Load background
-exec --no-startup-id feh --bg-scale ~/.config/feh/wallpapers/wallpaper.png
+#exec --no-startup-id feh --bg-scale ~/.config/feh/wallpapers/wallpaper.png
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -197,8 +197,8 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 # Start polybar
-exec --no-startup-id POLYBAR_MONITOR=DP-4 polybar
-exec --no-startup-id POLYBAR_MONITOR=HDMI-0 polybar
+#exec --no-startup-id POLYBAR_MONITOR=DP-4 polybar
+#exec --no-startup-id POLYBAR_MONITOR=HDMI-0 polybar
 
 
 # Window gaps
