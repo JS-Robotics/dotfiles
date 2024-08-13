@@ -1,13 +1,8 @@
-require("config.lazy");
-require("suffering");
 
-vim.opt.expandtab = true
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-
--- Enable full color selection
+-- enable full color selection
 vim.opt.termguicolors = true
 
-print("Hello World");
-
+require("config.options");
+require("config.lazy");
+require("suffering");
 
