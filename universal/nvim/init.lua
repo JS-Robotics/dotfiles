@@ -5,5 +5,4 @@ vim.opt.termguicolors = true
 require("config.remap");
 require("config.options");
 require("config.lazy");
---require("suffering");
 
