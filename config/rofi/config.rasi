@@ -11,22 +11,22 @@ configuration {
 
 
 * {
-  bg0     : #1a1b26;
-  bg1     : #1f2335;
-  bg2     : #24283b;
-  bg3     : #414868;
-  fg0     : #c0caf5;
-  fg1     : #a9b1d6;
-  fg2     : #737aa2;
+  bg0     : #24273a;
+  bg1     : #24273a;
+  bg2     : #6e738d;
+  bg3     : #b7bdf8;
+  fg0     : #cad3f5;
+  fg1     : #cad3f5;
+  fg2     : #6e738d;
   red     : #f7768e;
   green   : #9ece6a;
   yellow  : #e0af68;
-  blue    : #7aa2f7;
+  blue    : #8aadf4;
   magenta : #9a7ecc;
   cyan    : #4abaaf;
 
-  accent: #07cff6;
-  urgent: @yellow;
+  accent  : #b7bdf8;
+  urgent  : #ed8796;
 
   background-color : transparent;
   text-color       : @fg0;
