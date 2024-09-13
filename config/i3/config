@@ -78,7 +78,7 @@ exec --no-startup-id picom -b
 exec --no-startup-id xrandr --output DP-4 --primary --mode 3440x1440 --output HDMI-0 --left-of DP-4
 
 # Load background
-exec --no-startup-id feh --bg-scale ~/.config/feh/wallpapers/wallpaper.png
+exec --no-startup-id feh --bg-scale ${HOME}/.config/wallpapers/3440x1440/solid-color-crust.png
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
